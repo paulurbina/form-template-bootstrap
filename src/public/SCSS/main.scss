@@ -1,0 +1,63 @@
+body {
+	padding: 0;
+	margin:0;
+	font-family: sans-serif;
+	overflow-y:hidden; 
+	height: 100vh;
+
+}
+
+.login-box {
+	width: 400px;
+	height: 430px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	background: #fff;
+	border: 1.5px solid #2085FF;
+	border-radius: 4px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="email"] {
+	height: 32px;
+	font-size: 14px;
+}
+
+.login-box .avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:-10%;
+	left: calc(50% - 50px);
+}
+
+.login-box h2 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.login-box label {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.login-box button {
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	border:none;
+	outline: none;
+	height: 40px;
+	font-size: 15px;
+	position: absolute;
+	left: calc(50% - 50px); 
+}
